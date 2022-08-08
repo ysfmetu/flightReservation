@@ -14,9 +14,13 @@ ekran görüntüsü aşağıdaki gibidir...
 ![image](https://user-images.githubusercontent.com/45200802/183426881-21547d7e-1550-4aef-b8b1-0a9c77098fff.png)
 
 
-## Build
+## 2. Aşama
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Seçtiğimiz günde belirlediğimiz havayolu şirketini seçersek bizi bir sonraki aşamaya yönlendirmektedirr.
+burada seçtiğimiz şirkete ilgili kişiyi kaydetme aşamasıdır.
+burda bir form oluşturuyoruz ve giriş ekranını dolduruyoruz 
+![image](https://user-images.githubusercontent.com/45200802/183428024-9dce7387-799e-4410-8cb5-636ef2d59c41.png)
+
 
 ## Running unit tests
 

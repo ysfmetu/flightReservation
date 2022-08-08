@@ -10,6 +10,9 @@ import { ConfirmReservationComponent } from './components/confirm-reservation/co
 import {ReservationService} from "./services/reservation.service";
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import { CheckinComponent } from './components/checkin/checkin.component';
+import { StartcheckinComponent } from './components/startcheckin/startcheckin.component';
+import { ConfirmcheckComponent } from './components/confirmcheck/confirmcheck.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import {HttpClientModule} from "@angular/common/http";
     FindFlightComponent,
     DisplayFlightComponent,
     PassengerDetailComponent,
-    ConfirmReservationComponent
+    ConfirmReservationComponent,
+    CheckinComponent,
+    StartcheckinComponent,
+    ConfirmcheckComponent
   ],
   imports: [
     BrowserModule,

@@ -9,8 +9,9 @@ import {Reservation} from "../model/reservation";
 export class ReservationService {
 
   flightUrl:string="http://localhost:8080/api/flights"
-  reservationUrl:string="http://localhost:8080/api/reservations"
+  reservationUrl:string="http://localhost:8080/api/reservations/"
   data:any;
+  reservationData:any;
 
   constructor(private _httpClient:HttpClient) { }
 
@@ -23,5 +24,11 @@ export class ReservationService {
   }
   public  saveReservation(resarvation:Reservation):any{
     return this._httpClient.post(this.reservationUrl,resarvation);
+  }
+  public getReservation(id: number | undefined):any{
+   return this._httpClient.get(this.reservationUrl+id)
+  }
+  public checkIn(checkInRequest:any):any{
+    return this._httpClient.put(this.reservationUrl,checkInRequest);
   }
 }

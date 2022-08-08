@@ -33,6 +33,10 @@ Elimizde bulunan rezervasyon numarasını girerek ,ilgili kişi çağırılır v
 ![image](https://user-images.githubusercontent.com/45200802/183429615-3ac96d61-24a5-442a-8e1f-de5645153923.png)
 
 
-## Further help
+## son kontrol ve onay
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Yolcu ve uçuş bilgileri ilgili rezervasyon numarasına göre ekrana gelmektedir.bagaj miktarını girip onayladığımız takdirde check-in işlemi gerçekleşmiş olmaktadır.
+![image](https://user-images.githubusercontent.com/45200802/183431511-f7a39015-8ea8-4d69-bcba-dc8fca04e0c2.png)
+
+![image](https://user-images.githubusercontent.com/45200802/183431853-1667318a-8c09-4eef-baed-0e28d6df70f5.png)
+

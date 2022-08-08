@@ -16,15 +16,16 @@ ekran görüntüsü aşağıdaki gibidir...
 
 ## 2. Aşama
 
-Seçtiğimiz günde belirlediğimiz havayolu şirketini seçersek bizi bir sonraki aşamaya yönlendirmektedirr.
+Seçtiğimiz günde belirlediğimiz havayolu şirketini seçersek bizi bir sonraki aşamaya yönlendirmektedir.
 burada seçtiğimiz şirkete ilgili kişiyi kaydetme aşamasıdır.
-burda bir form oluşturuyoruz ve giriş ekranını dolduruyoruz 
-![image](https://user-images.githubusercontent.com/45200802/183428024-9dce7387-799e-4410-8cb5-636ef2d59c41.png)
+burda bir form oluşturuyoruz ve giriş ekranını dolduruyoruz ![image](https://user-images.githubusercontent.com/45200802/183428347-31319e83-2219-4551-8797-6cf0ae00e38b.png)
 
 
-## Running unit tests
+## Son aşama
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+eğer kaydımızı onaylarsak bize bir rezervasyon numarası vermektedir.Bu numarayı daha sonra Check-in kısmında kullanacağız....çünkü henüz uçuşumuz onaylanmamaıştır.
+![image](https://user-images.githubusercontent.com/45200802/183428887-109e8df5-7fb2-439a-a2c7-e5ac46368aa1.png)
+
 
 ## Running end-to-end tests
 

@@ -27,9 +27,11 @@ eğer kaydımızı onaylarsak bize bir rezervasyon numarası vermektedir.Bu numa
 ![image](https://user-images.githubusercontent.com/45200802/183428887-109e8df5-7fb2-439a-a2c7-e5ac46368aa1.png)
 
 
-## Running end-to-end tests
+## CHECK-IN İŞLEMİ İLE PROJEMİZİ TAMAMLIYORUZ...
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Elimizde bulunan rezervasyon numarasını girerek ,ilgili kişi çağırılır ve check-in kısmında bulunan bagaj kilo miktarını giriyoruz.. onayladıktan sonra checkin false olan durum aktif olup kaydımız tamamlanmış bulunmaktadır.bunun için bir buton kullanmış bulunmaktayız bu buton ile start veriyoruz ve işlemler tamamlanıyor
+![image](https://user-images.githubusercontent.com/45200802/183429615-3ac96d61-24a5-442a-8e1f-de5645153923.png)
+
 
 ## Further help
 

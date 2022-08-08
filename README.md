@@ -1,14 +1,18 @@
-# FlightReservation
+# Uçuş Rezervasyon Sistemi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Angular öğrenmek için yapılmış olan bir uygulamadır
 
-## Development server
+## API tasarım 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+flightReservationAPI projesi ile backend tarafına ulaşabilirsiniz...
 
-## Code scaffolding
+## Sonuçta ne elde edeceğiz ??
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Uygulama ile öncelikli olarak uçuş listesi sıralanmaktadır ... bunun için tarih ve istikamet yerlerini girdikten sonra arama yaparsak liste önümüze gelecektir.
+uçuş güzergah ve tarihleri için ayrıca giriş ekranı yapılmamış olup veritabanından insert edebilirsiniz....
+ekran görüntüsü aşağıdaki gibidir...
+![image](https://user-images.githubusercontent.com/45200802/183426881-21547d7e-1550-4aef-b8b1-0a9c77098fff.png)
+
 
 ## Build
 
